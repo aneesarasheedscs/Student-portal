@@ -1,0 +1,69 @@
+
+.forms{
+    background-image: linear-gradient(white, blueviolet, pink);
+    width: 400px;
+    height: 550px;
+    border: 1px solid grey;
+    border-radius: 15px;
+    margin: 10px;
+    margin-top: 10px;
+    position: relative;
+    box-shadow: 2px 2px 3px 1px grey;
+    /* background-image: url('./Component/UsersProfile.png'); */
+  }
+  .input-label{
+    width: 90%;
+    margin: 15px;
+    height: 30px;
+  
+  }
+  input{
+    border: 1px solid grey;
+    border-radius: 10px;
+    
+    
+  }
+  .button{
+    width: 30%;
+    height: 40px;
+    font-size: 18px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    position: absolute;
+    left: 20px;
+    margin-top: 5px;
+  }
+  .button:hover{
+    background-color: blue;
+    cursor: pointer;
+    color: white;
+  }
+  .showDataStyle{
+    margin-top: 30px;
+    width: 700px;
+    height: auto;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: #6ee9c0d8;
+    background-image: linear-gradient(white, blueviolet, pink);
+    padding: 10px;
+    display: flex;
+     justify-content: space-between;
+    flex-direction: row;
+    flex-wrap:  wrap;
+    gap: 20px;
+     align-items: center;
+     box-shadow: 2px 2px 3px 1px grey;
+  }
+  p{
+     /* border: 1px solid red; */
+    display: flex;
+      
+  }
+  .logo-img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    border: 1px solid grey;
+    border-radius: 50%;
+  }

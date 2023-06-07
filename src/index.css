@@ -1,0 +1,196 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.navbar-bg{
+      background-color: #e9f1f7;
+      
+}
+.navbar-brand{
+  font-size: 1.5rem;
+}
+.navbar li{
+  padding: 0 1rem;
+}
+.navbar li a{
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+.btn-style{
+  width: 8rem;
+  height: 3rem;
+  border-radius: 2rem;
+  color: #fff ;
+  background-color: blueviolet;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+}
+.btn-style:first-child{
+  margin-right: 1.5rem;
+}
+.btn-style:hover{
+  border: 1px solid blueviolet;
+  background-color: transparent;
+  color: blueviolet;
+  box-shadow: 0 0.2rem 0.5rem #ab7fd3d2;
+
+}
+h1{
+  font-size: 3.5rem !important;
+}
+/* .....................hero section .........*/
+header{
+  /* background-color: #e9f1f7; */
+  min-height: 100vh;
+  width: 100%;
+}
+.main-hero-container{
+  height: 80vh;
+  display: flex;
+}
+ 
+.input-group {
+  position: relative !important;
+}
+.form-control-text {
+  position: absolute;
+  height: 3rem;
+  border: 1px solid lightgrey;
+  /* outline-style: none; */
+  padding-left: 1rem !important;
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+.input-group-button{
+  position: absolute;
+  right: 26%;
+  top: 0.2rem;
+  color: #fff;
+  background-color: blueviolet;
+  height: 2.5rem;
+  width: 6.5rem;
+  text-align: center;
+  border-radius: 2rem !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.main-hero-container h1{
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+.main-hero-para{
+  font-size: 1rem;
+  color: grey;
+  margin: 2rem 0 3rem 0;
+  font-weight: lighter;
+  width: 60%;
+}
+.main-hero-container h3{
+  font-weight: lighter;
+  font-size: 19px;
+  margin-bottom: 0;
+}
+.main-herosection-images img{
+  width: 72%;
+  height: 75%;
+  margin-top: 8rem;
+  box-shadow: 0 0.5rem 0.5rem rgba(0,0,0,0.20);
+  border-radius: 1.2rem;
+  /* position: absolute; */
+}
+.main-herosection-images .main-hero-img2{
+    position: absolute;
+    width: 20%;
+    height: 32%;
+    left: 77%;
+    top: 6%;
+    box-shadow: 0 0.5rem 0.5rem rgba(0,0,0,0.20);
+}
+/* home page ends    ===================== */
+
+.forms{
+  background-image: linear-gradient(white, blueviolet, pink);
+  width: 400px;
+  height: 650px !important;
+  border: 1px solid grey;
+  border-radius: 15px;
+  margin: 10px;
+  margin-top: 10px;
+  position: relative;
+  box-shadow: 2px 2px 3px 1px grey;
+  /* background-image: url('./Component/UsersProfile.png'); */
+  font-size: 1.5rem;
+}
+.input-label{
+  width: 90%;
+  margin: 15px;
+  margin-bottom: 0 !important;
+  height: 30px;
+  
+}
+input{
+  border: 1px solid grey;
+  border-radius: 2rem;
+   font-size: 1rem;
+  
+}
+.registration{
+  color: #63348f;
+  margin-left: 1.6rem;
+}
+.button{
+  width: 30%;
+  height: 40px;
+  font-size: 18px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  position: absolute;
+  left: 20px;
+  margin-top: 5px;
+}
+.button:hover{
+  background-color: blueviolet;
+  cursor: pointer;
+  color: white;
+}
+.showDataStyle{
+  margin-top: 30px;
+  width: 700px;
+  height: auto;
+  border: 1px solid grey;
+  border-radius: 10px;
+  background-color: #6ee9c0d8;
+  background-image: linear-gradient(white, blueviolet, pink);
+  padding: 10px;
+  display: flex;
+   justify-content: space-between;
+  flex-direction: row;
+  flex-wrap:  wrap;
+  gap: 20px;
+   align-items: center;
+   box-shadow: 2px 2px 3px 1px grey;
+}
+p{
+   /* border: 1px solid red; */
+  display: flex;
+    
+}
+.logo-img{
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+  border: 1px solid grey;
+  border-radius: 50%;
+}

@@ -1,0 +1,38 @@
+.inputss{
+    border: none;
+    box-shadow: 0 0 10px rgba(67, 65, 65, 0.4);
+    font-size: 1.2rem;
+    outline: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+  }
+  .inputss:focus{
+    text-decoration: none;
+  }
+  .inputss:focus-within{
+    border: 2px solid #0059ff;
+  }
+  .Appp{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+  }
+  .add{
+    width: auto;
+    padding: 10px 20px;
+    margin: 5px;
+    border: 2px solid white;
+    font-size: 1.2rem;
+    box-shadow: 0 0 10px rgba(67, 65, 65, 0.4);
+    border-radius: 2rem;
+    background-color: blueviolet;
+    color: #fff;
+    cursor: pointer;
+  }
+  th, td{
+    text-align: center;
+    border: 1px solid grey;
+  }
