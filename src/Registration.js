@@ -30,6 +30,15 @@ const Registration = () => {
   function changeHandle3(){
     console.log("Object store in arrya" ,inputarr)
   }
+  function removeHandle(ind){
+    const newArray = inputarr.splice( inputdata=> inputdata.ind !== ind)
+    setInputarr(newArray)
+         console.log('botn clicked' , newArray)
+      
+        
+  }
+      
+  
   return (
     
             <div className="Appp">
@@ -55,9 +64,12 @@ const Registration = () => {
                         (info,ind)=>{
                           return(
                                  <tr key={ind}>
-                                  <td>{info.name}</td>
-                                  <td>{info.rollNo}</td>
-                                  <td>{info.classname}</td>
+                                    <td>{info.name}</td>
+                                    <td>{info.rollNo}</td>
+                                    <td>{info.classname}</td>
+                                    <td>
+                                    <button className='remove' onClick={()=> removeHandle(ind)}>Remove</button>
+                                    </td>
                                  </tr>
                           )
                         }
