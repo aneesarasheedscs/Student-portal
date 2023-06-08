@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Student-portal/static/css/main.ab8b2c14.css",
+    "main.js": "/Student-portal/static/js/main.add2ca48.js",
+    "index.html": "/Student-portal/index.html",
+    "main.ab8b2c14.css.map": "/Student-portal/static/css/main.ab8b2c14.css.map",
+    "main.add2ca48.js.map": "/Student-portal/static/js/main.add2ca48.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab8b2c14.css",
+    "static/js/main.add2ca48.js"
+  ]
+}
