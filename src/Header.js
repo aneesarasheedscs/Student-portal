@@ -1,4 +1,6 @@
 import React from 'react'
+import educationImage from './Component/Education2.jpg';
+import educationImage2 from './Component/portal3.jpg';
 
 const Header = () => {
   return (
@@ -23,9 +25,9 @@ const Header = () => {
                    <div className='col-12 col-lg-6 header-right-side 
                     d-flex justify-content-center align-items-center
                     main-herosection-images'>
-                     <img src='Education2.jpg' alt='example-image' className='img-fluid'></img>
+                     <img src={educationImage} alt='example-image' className='img-fluid'></img>
                
-                      <img src='portal3.jpg' alt='example-image' className='img-fluid main-hero-img2'></img>
+                      <img src={educationImage2} alt='example-image' className='img-fluid main-hero-img2'></img>
                    </div>
           </div>
         </section>

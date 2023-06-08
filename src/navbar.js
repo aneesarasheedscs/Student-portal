@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 // import BasicForms from './Component/basicForms';
 import { Link } from 'react-router-dom';
 import { Route, Redirect } from 'react-router'
-
+import logoImage from './Component/R.png';
 const Navbar = () => {
     const [show, setShow] = useState(false);
   return (
@@ -11,7 +11,7 @@ const Navbar = () => {
      <nav class="navbar navbar-expand-lg navbar-light ">
      <div class="container">
        <Link class="navbar-brand" to="/">
-        <img src='R.png' style={{width:'100px',height:'100px'}}></img>
+        <img src={logoImage} style={{width:'100px',height:'100px'}}></img>
        </Link>
        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarSupportedContent" 

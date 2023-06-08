@@ -3,6 +3,7 @@ import styles from './styles.css'
 import Home from './Home';
 // import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
+import userProfile from './Component/UsersProfile.png'
 
 
 
@@ -32,7 +33,7 @@ const BasicForms = () => {
       <h2 className='registration'>Registration</h2>
       <form action='' onSubmit={submitForm} className='forms'>
         <div>
-          <img className='logo-img' src='UsersProfile.png' alt='userprofile'></img><br></br>
+          <img className='logo-img' src={userProfile} alt='userprofile'></img><br></br>
              <label className='input-label' htmlFor='UserName'>User Name</label>
              <input  className='input-label' type='text' name='username' id='username'
                     value={username}  placeholder='Enter Your Name'
